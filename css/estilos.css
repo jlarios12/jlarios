@@ -1,0 +1,165 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.presentacion{
+              background-image: url(../imagenes/notebook-886532.jpg);
+              background-position: center center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-attachment:fixed;
+              height:100%;
+              width: 100%;
+              color:black;
+              text-align: center;
+
+}
+
+
+.redes{
+            color:#808080;
+            padding-top:140px;
+            font-size: 30px;
+            display: inline-block;
+}
+.contactos{
+     color:#808080;
+     font-size: 30px;
+     text-align: center;
+     margin: auto;
+    padding-bottom:20px;
+    font-family: 'Alex Brush', cursive;
+}
+
+
+.btn{
+            margin-top:40px;
+            margin-bottom:50px;
+}
+
+h1{
+            font-size: 7vw;
+            text-align: center;
+            color:#C3C3C3;
+            font-family: 'Roboto', sans-serif;
+}
+
+.des{
+            font-size: 20px;
+            background-color: rgba(164, 191, 199, 0.3);
+            color:#f1f6f8;
+            font-weight: bold;
+}
+
+.icono{
+              font-size: 100px;
+              text-align: center;
+}
+
+p{
+            font-size: 16px;
+            text-align:center;
+            color:#434343;
+}
+img{
+            height:200px;
+            width:200px;
+            border-radius: 50%;
+            margin: auto;
+
+}
+.imagen1{
+            padding-top: 30px;
+}
+
+.datos{
+            margin-bottom: 50px;
+            text-align: center;
+            padding-top: 40px;
+}
+.datos2{
+            -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+            box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+            padding-top: 50px;
+            text-align:center;
+            color:#56c5b8;
+            background-color: rgba(0, 0, 8, 0.7);
+            height:100%;
+            width: 100%;
+            padding-bottom: 50px;
+            margin-bottom: 50px;
+}
+.datos2 p{
+    color:#9a9b94;
+}
+.tec{
+            font-size: 50px;
+}
+.flecha{
+            font-size: 100px;
+}
+
+/*menu */
+.in{
+            position: fixed;
+            padding-left: 20px;
+            padding-top: 20px;
+            font-size: 40px;
+            cursor: pointer;
+            color:#80a0c0;
+            z-index: 1;
+
+}
+.overlay{
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0, 0.9);
+            overflow-x: hidden;
+            transition: 0.5s;
+}
+.overlay-content{
+            position: relative;
+            top: 25%;
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+}
+.overlay a {
+            padding: 8px;
+            text-decoration: none;
+            font-size: 36px;
+            color: #818181;
+            display: block;
+             transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+              color: #f1f1f1;
+}
+.overlay .closebtn {
+              position: absolute;
+              top: 20px;
+              right: 45px;
+              font-size: 60px;
+}
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+a{
+  text-decoration: none;
+  color:#808080;
+}

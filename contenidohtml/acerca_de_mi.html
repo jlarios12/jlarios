@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+    <link rel="stylesheet" href="../css/animations.css" type="text/css">
+    <link rel="stylesheet" href="../css/portafolio.css">
+
+    <title>JoseLarios J.</title>
+    <style>
+
+
+        img{
+   height: 170px;
+   width: 170px;
+   border: 1px solid #cccc;
+   margin: 70px auto;
+   background: #ccc;
+   text-align: center;
+   transition: all 2s ease-in-out;
+}
+   img:hover, #divloco div.hover_effect {
+      transform: rotate(720deg) scale(2,2);
+       cursor: pointer;
+   }
+         .dialogo{
+            margin-top: 20px;
+             text-align:justify;
+        }
+        .correo{
+          font-size: 20px;
+        }
+        p{
+            font-size: 16px;
+        }
+      </style>
+
+  </head>
+  <body>
+    <header>
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+        <a href="../index.html">Inicio</a>
+        <a href="portafolio.html">Portafolio</a>
+        <a href="videos.html">Videos</a>
+        <a href="acerca_de.html">Acerca de...</a>
+     </div>
+    </div>
+    <span class="in" onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"><h4>menu</h4></i>
+</span>
+    </header>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-6">
+                   <div class="img">
+                    <img src="../imagenes/albumjl 108.jpg" class=" img-responsive img-circle" alt="es una persona">
+                    </div>
+                    </div>
+
+                    <div class="col-md-6">
+                    <div class="dialogo">
+                      <div class="animatedParent">
+                       <h1 class="animated bounceInDown slowest">¡Hola,es un gusto poder saludarte!</h1>
+                     <p class="animated bounceInLeft slowest">
+                      Espero que todo ande bien, seguramente ya le has echado un vistazo a mi página web. Deja que te cuente algo sobre mí: soy un apasionado de la innovación; me encanta aprender cosas nuevas y acompañar a otros en su aprendizaje. Creo firmemente en el potencial de las personas para hacer cosas asombrosas, en su capacidad para imaginar, crear,  y disfrutar de los frutos que obtienen con los proyectos que emprenden. Para mí, el diseño de las páginas web es un espacio en el que disfruto enseñar y también aprender, poniendo en marcha proyectos y acompañando a mis clientes en el desarrollo de su sitio y darle el toque de profesionalismo que demande su negocio o cv digital. Si tu estás por emprender un negocio y necesitas tener presencia en internet, déjame ayudarte. Contáctame y será un gusto poder apoyarte en el desarrollo de tu página web.
+
+                    </p>
+                    <div class="correo"><i class="fa fa-envelope-o" aria-hidden="true">   joselariosj12@gmail.com</i></div>
+                    </div>
+                    </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          <footer>
+<div class="animatedParent">
+<h3 class="animated bounceInDown slowest">Jose Luis LJ. 2017</h3>
+<a href="https://www.facebook.com/jose.larios.98837?ref=bookmarks"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+  <a href="https://www.instagram.com/joselarios_12/?hl=es"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+  <a href="https://github.com/jlarios12"><i class="fa fa-github" aria-hidden="true"></i></a>
+  <a href="https://codepen.io/larios12/"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+</div>
+</footer>
+
+<script type="text/javascript">
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+
+$(document).ready(function(){
+
+$('.glyphicon').click(function(){
+$('body, html').animate({
+scrollTop: '0px'
+}, 300);
+});
+
+$(window).scroll(function(){
+ if( $(this).scrollTop() > 0 ){
+$('.glyphicon').slideDown(300);
+ } else {
+$('.glyphicon').slideUp(300);
+}
+});
+
+});
+</script>
+<script src="../librerias/css3-animate-it.js"></script>
+  </body>
+</html>

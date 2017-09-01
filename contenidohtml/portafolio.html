@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+    <link rel="stylesheet" href="../css/animations.css" type="text/css">
+    <link rel="stylesheet" href="../css/portafolio.css">
+
+    <title>JoseLarios J.</title>
+  </head>
+  <body>
+    <header>
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+        <a href="../index.html">Inicio</a>
+        <a href="videos.html">Videos</a>
+        <a href="acerca_de.html">Acerca de...</a>
+        <a href="acerca_de_mi.html">Acerca de mi</a>
+
+     </div>
+    </div>
+    <span class="in" onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"><h4>menu</h4></i>
+</span>
+    </header>
+
+    <div class="animatedParent">
+       <h1 class="animated bounceInDown slowest">Algunos de mis desarrollos web</h1>
+        <div class="container">
+          <hr>
+           <div class="row">
+             <div class="col-md-4">
+                   <div class="contenedor1">
+                   <div class="carta">
+                    <div class="lado frente">
+                        <img src="../imagenes/blog.png" alt=" area de trabajo">
+                    </div>
+                    <div class="lado atras">
+                    <p>Maquetacion de blog pudes ver el diseño y su codigo </p>
+                      <a href="https://codepen.io/larios12/pen/BdvRKa">aqui</a>
+                    </div>
+                </div>
+               </div>
+
+             </div>
+              <div class="col-md-4">
+                   <div class="contenedor2">
+                   <div class="carta">
+                    <div class="lado frente">
+                        <img src="../imagenes/formulario.png" class="img-responsive" alt=" area de trabajo">
+                    </div>
+                    <div class="lado atras">
+                     <p>Formularios de registro puedes ver el diseño</p>
+                     <br>
+                     <a href="https://codepen.io/larios12/pen/MvXRwE">Aqui...</a>
+                    </div>
+                </div>
+               </div>
+             </div>
+                 <div class="col-md-4">
+                   <div class="contenedor2">
+                   <div class="carta">
+                    <div class="lado frente">
+                        <img src="../imagenes/formulario2.png" class="img-responsive" alt=" area de trabajo">
+                    </div>
+                    <div class="lado atras">
+                      <p>Maquetacion de una calculadora la cual realizara solo calculos
+                      aritmeticos por medio de programasion php.
+                     puedes ver el diseño</p>
+                     <br>
+                     <a href="https://codepen.io/larios12/pen/NvepZW">Aqui...</a>
+                    </div>
+                </div>
+               </div>
+             </div>
+               </div>
+           </div>
+        </div>
+<footer>
+<div class="animatedParent">
+  <a href="https://www.facebook.com/jose.larios.98837?ref=bookmarks"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+    <a href="https://www.instagram.com/joselarios_12/?hl=es"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    <a href="https://github.com/jlarios12"><i class="fa fa-github" aria-hidden="true"></i></a>
+    <a href="https://codepen.io/larios12/"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+  <h3 class="animated bounceInDown slowest">Jose Luis LJ. 2017</h3>
+
+</div>
+</footer>
+
+<script type="text/javascript">
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+
+$(document).ready(function(){
+
+$('.glyphicon').click(function(){
+$('body, html').animate({
+scrollTop: '0px'
+}, 300);
+});
+
+$(window).scroll(function(){
+ if( $(this).scrollTop() > 0 ){
+$('.glyphicon').slideDown(300);
+ } else {
+$('.glyphicon').slideUp(300);
+}
+});
+
+});
+</script>
+<script src="../librerias/css3-animate-it.js"></script>
+  </body>
+</html>
